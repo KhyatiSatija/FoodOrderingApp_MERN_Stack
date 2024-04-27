@@ -2,9 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Concepts Used
+- **React**: A JavaScript library for building user interfaces.
+- **Bootstrap 5**: A popular CSS framework for building responsive and mobile-first websites.
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine for server-side development.
+- **Express.js**: A minimalist web framework for Node.js used for building APIs and web applications.
+- **MongoDB Atlas**: A fully managed cloud database service provided by MongoDB.
+- **Mongoose**: An Object Data Modeling (ODM) library for MongoDB and Node.js.
+- **Nodemon**: A tool that helps in automatically restarting the server when changes are made to the source code.
+- **React Router DOM**: A library for routing in React applications, enabling navigation between different components.
+- **Express Validator**: A middleware for Express.js used for data validation.
+- **bcrypt.js**: A library for hashing passwords in Node.js.
+- **jsonwebtoken**: A library for generating JSON Web Tokens (JWT) for user authentication.
+- **useReducer, hooks, props, states**: React features for managing state and data flow in components.
+- **Context API**: A React feature for sharing state between components without having to pass props through every level of the component tree.
+
+
+## Installation
+
+### `git clone https://github.com/KhyatiSatija/FoodOrderingApp_MERN_Stack.git`
 
 In the project directory `client`, you can run:
+
+### `npm install`
 
 ### `npm start`
 
@@ -13,6 +33,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Go to the backend folder and run:
 ### `nodemon index.js`
+
+
+## Available Scripts
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
