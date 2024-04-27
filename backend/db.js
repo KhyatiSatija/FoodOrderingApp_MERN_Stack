@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://satijakhyati2003:k443@cluster0.1aijkos.mongodb.net/q-buster-fullstack?retryWrites=true&w=majority'
+const mongoURI = 'mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.1aijkos.mongodb.net/<DATABASE_NAME>?retryWrites=true&w=majority'
 // downgrade the URL version if you face any issues.
+// replace <> with the actual values they signify
 
 //async await used here to mitigate the error faced with mongoose.connection.db.collection
 const mongoDB = async () => {
